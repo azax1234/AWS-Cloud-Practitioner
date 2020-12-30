@@ -17,11 +17,11 @@ AWS Marketplace is a digital catalog with thousands of software listings from in
 
 Data Center resilience is practiced through Availability Zones across data centers that reduce the impact of failures.
 
-Fault isolation improvement can be made to traditional horizontal scaling by sharding (a method of grouping instances into groups called shards, instead of sending the traffic from all users to every node like in the traditional IT structure.)
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Fault isolation improvement can be made to traditional horizontal scaling by sharding (a method of grouping instances into groups called shards, instead of sending the traffic from all users to every node like in the traditional IT structure.)
 
 Customers benefit from Amazon's massive economies of scale by periodic price reductions as the result of Amazon's operational efficiencies.
 
-Serverless platform includes: AWS lambda, Amazon S3, DynamoDB, API gateway, Amazon SNS, AWS step functions, Amazon kinesis and developing tools and services.
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Serverless platform includes: AWS lambda, Amazon S3, DynamoDB, API gateway, Amazon SNS, AWS step functions, Amazon kinesis and developing tools and services.
 
 Elasticity involves vertical (increasing/decreasing the size of an item) and horizontal (increasing/decreasing the number of items) scaling.
 
