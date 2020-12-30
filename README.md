@@ -120,10 +120,48 @@ CloudFront delivers your content through a worldwide network of data centers cal
 
 ## EC2
 
-Amazon EC2 Reserved Instances (RI) provide a significant discount (up to 72%) compared to On-Demand pricing and provide a capacity reservation when used in a specific Availability Zone. Types:
+Amazon EC2 Reserved Instances (RI) provide a significant discount (up to 72%) compared to On-Demand pricing and provide a capacity reservation when used in a specific Availability Zone. Types:-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 
 * Standard RI: most significant discount (up to 72% off On-Demand) and are best suited for steady-state usage.
 * Convertible RI: These provide a discount (up to 54% off On-Demand) and the capability to change the attributes of the RI as long as the exchange results in the creation of Reserved Instances of equal or greater value. Like Standard RIs, Convertible RIs are best suited for steady-state usage.
 * Scheduled RI: These are available to launch within the time windows you reserve. This option allows you to match your capacity reservation to a predictable recurring schedule that only requires a fraction of a day, a week, or a month.
+
+### -![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)  Standard vs. Convertible offering classes
+
+When you purchase a Reserved Instance, you can choose between a Standard or Convertible offering class.
+
+Table 1 – Comparison of standard and Convertible Reserved Instances
+
+#### Standard Reserved Instance:	
+One-year to three-year term.
+
+Enables you to modify Availability Zone, scope, networking type, and instance size (within the same instance type) of your Reserved Instance. For more information, see Modifying Reserved Instances.	
+
+Can be sold in the Reserved Instance Marketplace.
+
+#### Convertible Reserved Instance:
+One-year to three-year term
+
+Enables you to exchange one or more Convertible Reserved Instances for another Convertible Reserved Instance with a different configuration, including instance family, operating system, and tenancy.
+
+There are no limits to how many times you perform an exchange, as long as the target Convertible Reserved Instance is of an equal or higher value than the Convertible Reserved Instances that you are exchanging. For more information, see Exchanging Convertible Reserved Instances.
+Cannot be sold in the Reserved Instance Marketplace.
+
+
+Standard Reserved Instances typically provide the highest discount levels. One-year Standard Reserved Instances provide a similar discount to three-year Convertible Reserved Instances.
+
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) If you want to purchase capacity reservations that recur on a daily, weekly, or monthly basis, a Scheduled Reserved Instance might meet your needs.
+
+Convertible Reserved Instances are useful when:
+
+Purchasing Reserved Instances in the payer account instead of a subaccount. You can more easily modify Convertible Reserved Instances to meet changing needs across your organization.
+
+Workloads are likely to change. In this case, a Convertible Reserved Instance enables you to adapt as needs evolve while still obtaining discounts and capacity reservations.
+
+You want to hedge against possible future price drops.
+
+You can’t or don’t want to ask teams to do capacity planning or forecasting.
+
+You expect compute usage to remain at the committed amount over the commitment period.
 
 Reserved Instances payment methods are:
 * All Upfront
