@@ -216,7 +216,7 @@ It takes 24 hours for changes made to a hosted zone in Amazon Route 53 to reflec
 
 The geolocation routing policy allows for different resources to serve content based on the origin of the request. This is useful to present a website in a specific language depending on which country the user is accessing from.
 
-Routing Policies
+-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)  Routing Policies
 
 In some cases, you just need a domain name to resolve to a particular IP address. But there are other times when you want the value of a resource record to change dynamically to work around failures or ensure users get pointed to the least busy server. Route 53 lets you accomplish this with a variety of routing policies.
 
